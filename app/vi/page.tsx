@@ -2,14 +2,6 @@ import Image from "next/image";
 import PhotoFrame from "../../public/assets/frame.png";
 import CountdownVi from "@/components/countdown-vi";
 
-import {
-  Dialog,
-  DialogContent,
-  DialogDescription,
-  DialogHeader,
-  DialogTrigger,
-} from "@/components/ui/dialog";
-
 export default function Vi() {
   return (
     <div
