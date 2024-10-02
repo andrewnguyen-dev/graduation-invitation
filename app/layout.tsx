@@ -4,19 +4,19 @@ import localFont from "next/font/local";
 const arsenica = localFont({
   src: [
     {
-      path: "./fonts/ArsenicaTrial-Regular.ttf",
+      path: "./fonts/arsenica-trial-regular.ttf",
       weight: "400",
     },
     {
-      path: "./fonts/ArsenicaTrial-Medium.ttf",
+      path: "./fonts/arsenica-trial-medium.ttf",
       weight: "500",
     },
     {
-      path: "./fonts/ArsenicaTrial-DemiBold.ttf",
+      path: "./fonts/arsenica-trial-demibold.ttf",
       weight: "600",  
     },
     {
-      path: "./fonts/ArsenicaTrial-Bold.ttf",
+      path: "./fonts/arsenica-trial-bold.ttf",
       weight: "700",
     },
   ],
