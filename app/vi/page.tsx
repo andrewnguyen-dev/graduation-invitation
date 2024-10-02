@@ -21,7 +21,7 @@ export default function Vi() {
       <div className="text-center space-y-2">
         <p>của</p>
         <p className="font-arsenica font-medium tracking-wider text-3xl sm:text-4xl">
-          THA&apos;I MINH <span className="text-2xl">aka EKE MINH</span>
+          THA&apos;I MINH <br/><span className="text-2xl">aka EKE MINH</span>
         </p>
       </div>
 

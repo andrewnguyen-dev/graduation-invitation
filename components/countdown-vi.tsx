@@ -35,9 +35,9 @@ export default function CountdownVi() {
 
   return (
     <div className="flex items-center justify-center">
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+        <div className="grid grid-cols-4 gap-4">
           {Object.entries(timeLeft).map(([unit, value]) => (
-            <div key={unit} className="p-2 flex flex-col items-center justify-center">
+            <div key={unit} className="p-1 sm:p-2 flex flex-col items-center justify-center">
               <div className="text-5xl font-medium font-eb-garamond text-gray-700 mb-2">{value}</div>
               <div className="text-sm text-gray-600 capitalize">{unit === 'days' ? 'ngày' : unit === 'hours' ? 'giờ' : unit === 'minutes' ? 'phút' : 'giây'}</div>
             </div>
