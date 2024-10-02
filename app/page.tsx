@@ -144,6 +144,10 @@ export default function Home() {
           </li>
         </ul>
       </div>
+
+      <div className="flex items-center justify-center">
+        <p className="text-xs text-gray-700">[ english | <a href="/vi">vietnamese</a> ]</p>
+      </div>
     </div>
   );
 }

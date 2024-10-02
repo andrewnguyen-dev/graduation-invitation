@@ -49,6 +49,10 @@ export default function Vi() {
           dành cho tớoo.
         </p>
       </div>
+
+      <div className="flex items-center justify-center">
+        <p className="text-xs text-gray-700">[ <a href="/">english</a> | vietnamese ]</p>
+      </div>
     </div>
   );
 }
